@@ -1,0 +1,136 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style:normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    position: relative;
+    background-color: black;
+    font-weight: 10;            
+    height: 40px;
+    display: flex;
+    color: white;
+    padding: 25px;
+    text-align: left;
+    align-items: center;
+}
+header a img{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    max-height: 65px;
+    max-width: 65px;
+    border: 0.4px solid #980000;
+    border-radius: 2px;
+}
+header nav{
+    margin-left: 200px;
+    text-align: center;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 120px;
+    font-weight: 200;
+    color: #f9f9f9;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.8s ease; 
+}
+nav a:hover {
+    color: #980000;
+}
+img{
+    margin: 12px;
+}
+main {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+main section{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    word-spacing: 5px;
+}
+.rght{
+    max-width: 20%;
+    border-radius: 8px;
+    float: right;
+    margin: 30px;
+}
+.lft{
+    max-width: 20%;
+    border-radius: 8px;
+    float: left;
+    margin: 30px;
+}
+.about{
+    text-align: justify;
+    line-height: 1.6;
+    word-spacing: 5px;
+    margin-bottom: 100px;
+}
+.attractors{
+    text-align: justify;
+    line-height: 1.6;
+    word-spacing: 5px;
+}
+.contacts{
+    text-align: center;
+}
+.contacts a{
+    display: block;
+}
+.contacts img{
+    margin:3px;
+    max-width: 30%;
+}
+.about h2{
+    text-align: center;
+}
+.attractors h2{
+    text-align: center;
+}
+.content {
+    flex: 1 0 auto;
+}
+.gallery{
+    text-align: justify;
+}
+.gallery h2{
+    text-align: center;
+}
+.gallery img{
+    max-width: 30%;
+    margin: 5px;
+}
+.gallery p{
+    margin-bottom: 50px;
+}
+.footer {
+    flex-shrink: 0;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-color: black;
+    background-position: right 70%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
